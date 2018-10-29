@@ -1,0 +1,93 @@
+* {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px;
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     font-size: 20px;
+}
+
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+form{
+  border: 1px solid black;
+}
+section{
+  border: 1px solid black;
+}
+header h1{
+  font-size: 3rem;
+  padding: 20px;
+}
+.twins{
+  width: 25%;
+  padding: 20px;
+  float: left;
+}
+.twins h2{
+  font-size: 1.2rem;
+}
+table{
+  width: 46%;
+  margin: 10px 2%;
+  float: left;
+  text-align: center;
+}
+table h2{
+  width: 48%;
+  font-size: 1.2rem;
+  float: left;
+}
+table tr{
+  width: 45%;
+  margin: 10px 2%;
+  float: left;
+}
+table tr td{
+  font-size: .8rem;
+  height: 50px;
+  width: 100%;
+  float: left;
+}
+
+.status{
+  width: 46%;
+  margin: 10px 1%;
+  float: left;
+}
